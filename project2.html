@@ -1,0 +1,96 @@
+<html>
+
+    <head>
+        <title></Title>
+        <style>
+            img{
+                width: 200px;
+            }
+            input{
+                width:30px;
+            }
+            body {
+    background-color: royalblue;
+            }
+ 
+        </style>
+
+        <script>
+            var subtotal=document.getElementById("subtotal")
+            var tax=document.getElementById("tax")
+            var shipping=document.getElementById("shipping")
+            var total=document.getElementById("total")
+            var profit=document.getElementById("profit")
+            var quantity1=document.getElementById("quantity1")
+            var quantity2=document.getElementById("quantity2")
+            var quantity3=document.getElementById("quantity3")
+            var output=document.getElementById("output")
+            var build="";
+                build+ "subtotal:" + amount +"\n";
+                build+ "tax" + "\n";
+                build+ "____________\n";
+                build+ "total" + Total +"\n";
+                return build;
+
+        </script>
+    <body>
+     
+        <div>
+            <h1>New Movie<h1>
+            <img src="images/p1.jpg"><br>
+            <span>
+                 Price:$15.00   
+            </span>
+            <p>
+               Imprisoned, the mighty Thor finds himself in a lethal 
+			   gladiatorial contest against the Hulk, his former ally. 
+			   Thor must fight for survival and race against time to prevent 
+			   the all-powerful Hela from destroying his home and the Asgardian 
+			   civilization
+
+            </p>
+                Quantity: <input type="text" id="quantity1"
+				 input id= "name" type="Text" placeholder="Qty">
+        <button onclick="greeting();">
+                add to cart 
+        </button>
+            <h1>New Movie<h1>
+            <img src="images/p2.jpg"><br>
+            <span>
+                 Price:$15.00   
+            </span>
+            <p>
+                New jigsaw movie coming out the most scariest movie you will ever see
+                in your life.Bodies are turning up around the city, each having met
+				a uniquely gruesome demise. As the investigation proceeds, evidence
+				points to one suspect: John Kramer, the man known as Jigsaw, who has
+				been dead for ten years.
+
+            </p>
+                Quantity: <input type="text" id="quantity1"
+			 input id= "name" type="Text" placeholder="Qty">
+        <button onclick="greeting();">
+                add to cart 
+        </button>
+		 <h1>New Movie<h1>
+            <img src="images/p3.jpg"><br>
+            <span>
+                 Price:$15.00   
+            </span>
+            <p>
+              When the network of satellites designed to control the global 
+			  climate starts to attack Earth, it's a race against the clock 
+			  to uncover the real threat before a worldwide Geostorm wipes out
+			  everything and everyone.
+
+            </p>
+                Quantity: <input type="text" id="quantity1"
+				 input id= "name" type="Text" placeholder="Qty">
+        <button onclick="greeting();">
+                add to cart
+        </button>
+        <div id ="output"> 
+        </div> 
+    </body>
+    
+    </html>
